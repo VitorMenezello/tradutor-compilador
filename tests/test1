@@ -1,0 +1,5 @@
+L1: iffalse a > b goto L2
+    c = c * a
+    a = a - 1
+    goto L1
+L2: b = 3
